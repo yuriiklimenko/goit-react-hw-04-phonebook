@@ -1,0 +1,26 @@
+.form {
+  width: 370px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.label {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.input {
+  padding: 5px;
+  border-radius: 3px;
+  width: 144px;
+  margin-bottom: 20px;
+}
+
+.input:focus {
+  box-shadow: 0px 0px 2px 2px rgb(155, 178, 244);
+  border-color: rgb(155, 178, 244);
+  outline: none;
+}
