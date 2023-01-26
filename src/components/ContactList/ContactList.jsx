@@ -2,6 +2,10 @@ import PropTypes from 'prop-types';
 import ContactItem from 'components/ContactItem/ContactItem';
 
 const ContactList = ({ contacts, remove }) => {
+  if (!contacts.length) {
+    return <h3>You don't have any contact</h3>;
+  }
+
   return (
     <>
       <ul>
