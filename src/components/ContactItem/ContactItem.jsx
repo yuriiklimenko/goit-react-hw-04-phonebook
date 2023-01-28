@@ -7,6 +7,7 @@ const ContactItem = ({ contact, remove }) => {
     <li className={css.item}>
       <p className={css.name}>{contact.name}: </p>
       <p className={css.tel}>{contact.number}</p>
+
       <Button onClick={() => remove(contact.id)} className={css.btn}>
         Delete
       </Button>
